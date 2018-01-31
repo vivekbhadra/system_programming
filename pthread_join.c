@@ -13,20 +13,12 @@ pthread_mutex_t m;
 
 void * thread_func1(void *arg)
 {
-    //manipVal(10);
-    //printf("%d\n", var);
-    //return NULL;
-
     printf("Hello World again\n");
 }
 
 void * thread_func2(void *arg)
 {
-    //manipVal(20);
-    //printf("%d\n", var);
-
     printf("Hello World again and again\n");
-
     return NULL;
 }
 
