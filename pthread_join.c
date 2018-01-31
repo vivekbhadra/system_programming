@@ -42,9 +42,6 @@ int main(void)
     if (ret < 0)
         printf("Failed to create thread\n");
 
-    pthread_join(thread1, NULL);
-    pthread_join(thread2, NULL);
-
     printf("Hello world!\n");
     return 0;
 }
